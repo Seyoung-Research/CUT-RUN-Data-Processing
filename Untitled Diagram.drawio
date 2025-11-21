@@ -9,14 +9,50 @@
             <mxPoint x="400" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4rxC07ifuG1nSExD8aA_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4rxC07ifuG1nSExD8aA_-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jIVAlMnbILc0HSfN0dM2-1" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png" value="" vertex="1">
           <mxGeometry height="80" width="80" x="360" y="190" as="geometry" />
         </mxCell>
         <mxCell id="jIVAlMnbILc0HSfN0dM2-4" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" value="" vertex="1">
           <mxGeometry height="50" width="50" x="375" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="jIVAlMnbILc0HSfN0dM2-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+        <mxCell id="jIVAlMnbILc0HSfN0dM2-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;OpenWRT Router&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="365" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-1" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/wireless/Access_Point_Indoor.svg;" value="" vertex="1">
+          <mxGeometry height="54.6" width="36.6" x="250" y="525.4" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-2" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="490" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Internet&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Asus Access Point" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;TP Link Access Point&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="238.3" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-10" edge="1" parent="1" source="4rxC07ifuG1nSExD8aA_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-8" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Network Switch" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

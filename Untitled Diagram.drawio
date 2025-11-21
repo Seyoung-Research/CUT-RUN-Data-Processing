@@ -1,9 +1,21 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="29.1.1">
   <diagram name="Page-1" id="Bvxzr7d5XNQfY33sKAfD">
-    <mxGraphModel dx="1234" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2084" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4rxC07ifuG1nSExD8aA_-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;opacity=25;" value="" vertex="1">
+          <mxGeometry height="300" width="430" x="720" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;opacity=15;" value="" vertex="1">
+          <mxGeometry height="564.6" width="528.3" x="440" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Medium Security&lt;/h1&gt;&lt;p align=&quot;left&quot;&gt;For things I&#39;d like to communicate with other devices on my network &lt;br&gt;&lt;/p&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Laptops&lt;/li&gt;&lt;li&gt;Phones&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="599.15" y="525.4" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;opacity=15;" value="" vertex="1">
+          <mxGeometry height="564.6" width="528.3" x="-200" y="525.4" as="geometry" />
+        </mxCell>
         <mxCell id="jIVAlMnbILc0HSfN0dM2-3" edge="1" parent="1" source="jIVAlMnbILc0HSfN0dM2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="100" as="targetPoint" />
@@ -48,11 +60,43 @@
             <mxPoint x="400" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-18" edge="1" parent="1" source="4rxC07ifuG1nSExD8aA_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4rxC07ifuG1nSExD8aA_-8" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" value="" vertex="1">
           <mxGeometry height="80" width="80" x="360" y="330" as="geometry" />
         </mxCell>
         <mxCell id="4rxC07ifuG1nSExD8aA_-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Network Switch" vertex="1">
           <mxGeometry height="30" width="60" x="370" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-14" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Low Security&lt;/h1&gt;&lt;p align=&quot;left&quot;&gt;For less secure devices that don&#39;t need to communicate with other devices:&amp;nbsp;&lt;/p&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Iot Devices&lt;/li&gt;&lt;li&gt;Guest Network&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="175.85" x="-25.85" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-17" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="729.15" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NAS" vertex="1">
+          <mxGeometry height="30" width="60" x="739.15" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 1" vertex="1">
+          <mxGeometry height="30" width="60" x="539" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 2" vertex="1">
+          <mxGeometry height="30" width="60" x="539" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VLAN 3" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-24" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;High Security&lt;/h1&gt;&lt;p align=&quot;left&quot;&gt;For things that have access to PII&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="850" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-25" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="729.15" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="4rxC07ifuG1nSExD8aA_-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Media Server" vertex="1">
+          <mxGeometry height="30" width="60" x="739.15" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

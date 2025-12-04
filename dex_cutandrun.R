@@ -1,3 +1,44 @@
+# ---------------------------------------------------------------------------
+# #         ****        0. Bioconductor or CRAN installs      ****
+# ---------------------------------------------------------------------------
+
+# Make sure BiocManager is installed
+
+if (!requireNamespace("BiocManager", quietly = TRUE)) {
+  install.packages("BiocManager")
+}
+
+#  Packages you need (CRAN + Bioconductor)
+
+packages <- c(
+  # Bioconductor
+  "DiffBind", "ComplexHeatmap", "InteractiveComplexHeatmap",
+  "ChIPseeker", "AnnotationDbi", "org.Hs.eg.db",
+  "GenomeInfoDb", "GenomicRanges", "GenomicAlignments",
+  "rtracklayer", "biomaRt", "BSgenome.Hsapiens.UCSC.hg38",
+  "Rsubread", "TxDb.Hsapiens.UCSC.hg38.knownGene",
+  
+  # CRAN
+  "DescTools", "tidyverse", "pbapply", "pbmcapply",
+  "profileplyr", "vroom"
+)
+
+#  Install any missing packages
+
+for (pkg in packages) {
+  if (!requireNamespace(pkg, quietly = TRUE)) {
+    # Decide which repo to use
+    if (pkg %in% rownames(installed.packages())) next   # already there (just in case)
+    if (pkg %in% BiocManager::available()) {
+      BiocManager::install(pkg, update = FALSE, ask = FALSE)
+    } else {
+      install.packages(pkg, dependencies = TRUE)
+    }
+  }
+}
+
+
+# ---------------------------------------------------------------------------
 #                  ****       1. LIBRARY IMPORTS        ****
 # ---------------------------------------------------------------------------
 # Load Standard Libraries
